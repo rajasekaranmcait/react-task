@@ -1,0 +1,112 @@
+.appContainer {
+  color: #ffffff;
+  position: absolute;
+}
+.cardContainer {
+  padding: 0 5%;
+  width: 100%;
+}
+
+.title{
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+  padding: 20px;
+  color: #3333cc;
+}
+
+.cardSection {
+  border: 1px solid #000000;
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #d9d9d9;
+  float: left;
+  width: 290px;
+  height: 190px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.cardSection:hover {
+  background-color: #aaaaaa;
+  font-size: 16px;
+}
+
+.cardData {
+  padding: 5px;
+}
+
+.cardLabel {
+  width: 75px;
+  float: left;
+  font-weight: bold;
+}
+
+.backBtn {
+  position: absolute;
+    top: 15px;
+    left: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #0000ff;
+}
+
+.itemContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.cardImageSection {
+  margin: 20px;
+  width: 250px;
+  height: 150px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+
+.cardImageSection img {
+  width: 250px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.cardItemSection {
+  border: 1px solid #000000;
+  margin: 10px;
+  padding: 10px;
+  background-color: #d9d9d9;
+  float: left;
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.cardItemSection .cardData {
+  padding-left: 100px;
+}
+
+.cardItemSection .cardLabel {
+  width: 100px;
+}
+
+.priceInputField {
+  width: 50px;
+  margin-right: 5px;
+}
+
+.cardData i {
+  font-size: 19px;
+  color: #3333cc;
+  cursor: pointer;
+}
+
+.availability {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.availability input, .availability label  {
+  cursor: pointer;
+}
